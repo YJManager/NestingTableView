@@ -1,0 +1,4 @@
+github "YJManager/ElegantTableView" "0.0.1"
+github "YJManager/YJBannerViewOC" "2.1.1"
+github "YJManager/YJCommonMacro" "0.0.4"
+github "rs/SDWebImage" "4.0.0"

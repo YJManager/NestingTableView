@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63938ACA1F0B353D005BD255 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63938AC91F0B353D005BD255 /* main.m */; };
+		63938ACD1F0B353D005BD255 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63938ACC1F0B353D005BD255 /* AppDelegate.m */; };
+		63938AD31F0B353D005BD255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63938AD11F0B353D005BD255 /* Main.storyboard */; };
+		63938AD51F0B353D005BD255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63938AD41F0B353D005BD255 /* Assets.xcassets */; };
+		63938AD81F0B353D005BD255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63938AD61F0B353D005BD255 /* LaunchScreen.storyboard */; };
+		63938AE11F0B3581005BD255 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63938AE01F0B3581005BD255 /* MainViewController.m */; };
+		63938AE81F0B3920005BD255 /* NestingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63938AE71F0B3920005BD255 /* NestingTableView.m */; };
+		63938B001F0B42B1005BD255 /* OCCommonMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63938AFF1F0B42B1005BD255 /* OCCommonMacro.framework */; };
+		63938B031F0B5C36005BD255 /* YJBannerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63938B021F0B5C36005BD255 /* YJBannerView.framework */; };
+		63938B051F0B60EA005BD255 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63938B041F0B60EA005BD255 /* SDWebImage.framework */; };
+		63938B081F0B7259005BD255 /* MultiContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63938B071F0B7259005BD255 /* MultiContainerView.m */; };
+		63938B0A1F0B7865005BD255 /* ElegantTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63938B091F0B7865005BD255 /* ElegantTableView.framework */; };
+		63938B0E1F0B7CCA005BD255 /* NestingRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63938B0D1F0B7CCA005BD255 /* NestingRootViewController.m */; };
+		63938B111F0B7CF1005BD255 /* NestingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63938B101F0B7CF1005BD255 /* NestingViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63938AC51F0B353D005BD255 /* NestingTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestingTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63938AC91F0B353D005BD255 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63938ACB1F0B353D005BD255 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63938ACC1F0B353D005BD255 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63938AD21F0B353D005BD255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63938AD41F0B353D005BD255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63938AD71F0B353D005BD255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63938AD91F0B353D005BD255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63938ADF1F0B3581005BD255 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		63938AE01F0B3581005BD255 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		63938AE61F0B3920005BD255 /* NestingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestingTableView.h; sourceTree = "<group>"; };
+		63938AE71F0B3920005BD255 /* NestingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestingTableView.m; sourceTree = "<group>"; };
+		63938AFF1F0B42B1005BD255 /* OCCommonMacro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCCommonMacro.framework; path = Carthage/Build/iOS/OCCommonMacro.framework; sourceTree = "<group>"; };
+		63938B021F0B5C36005BD255 /* YJBannerView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YJBannerView.framework; path = Carthage/Build/iOS/YJBannerView.framework; sourceTree = "<group>"; };
+		63938B041F0B60EA005BD255 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
+		63938B061F0B7259005BD255 /* MultiContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiContainerView.h; sourceTree = "<group>"; };
+		63938B071F0B7259005BD255 /* MultiContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiContainerView.m; sourceTree = "<group>"; };
+		63938B091F0B7865005BD255 /* ElegantTableView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ElegantTableView.framework; path = Carthage/Build/iOS/ElegantTableView.framework; sourceTree = "<group>"; };
+		63938B0C1F0B7CCA005BD255 /* NestingRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestingRootViewController.h; sourceTree = "<group>"; };
+		63938B0D1F0B7CCA005BD255 /* NestingRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestingRootViewController.m; sourceTree = "<group>"; };
+		63938B0F1F0B7CF1005BD255 /* NestingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestingViewController.h; sourceTree = "<group>"; };
+		63938B101F0B7CF1005BD255 /* NestingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestingViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63938AC21F0B353D005BD255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63938B0A1F0B7865005BD255 /* ElegantTableView.framework in Frameworks */,
+				63938B051F0B60EA005BD255 /* SDWebImage.framework in Frameworks */,
+				63938B031F0B5C36005BD255 /* YJBannerView.framework in Frameworks */,
+				63938B001F0B42B1005BD255 /* OCCommonMacro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63938ABC1F0B353D005BD255 = {
+			isa = PBXGroup;
+			children = (
+				63938AE21F0B35D3005BD255 /* NestingTableView */,
+				63938AC71F0B353D005BD255 /* NestingTableViewDemo */,
+				63938AC61F0B353D005BD255 /* Products */,
+				63938AFE1F0B42B1005BD255 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63938AC61F0B353D005BD255 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63938AC51F0B353D005BD255 /* NestingTableViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63938AC71F0B353D005BD255 /* NestingTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				63938ACB1F0B353D005BD255 /* AppDelegate.h */,
+				63938ACC1F0B353D005BD255 /* AppDelegate.m */,
+				63938ADF1F0B3581005BD255 /* MainViewController.h */,
+				63938AE01F0B3581005BD255 /* MainViewController.m */,
+				63938AD11F0B353D005BD255 /* Main.storyboard */,
+				63938AD41F0B353D005BD255 /* Assets.xcassets */,
+				63938AD61F0B353D005BD255 /* LaunchScreen.storyboard */,
+				63938AD91F0B353D005BD255 /* Info.plist */,
+				63938AC81F0B353D005BD255 /* Supporting Files */,
+			);
+			path = NestingTableViewDemo;
+			sourceTree = "<group>";
+		};
+		63938AC81F0B353D005BD255 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63938AC91F0B353D005BD255 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63938AE21F0B35D3005BD255 /* NestingTableView */ = {
+			isa = PBXGroup;
+			children = (
+				63938B0B1F0B7CAF005BD255 /* NestingControllers */,
+				63938AE61F0B3920005BD255 /* NestingTableView.h */,
+				63938AE71F0B3920005BD255 /* NestingTableView.m */,
+				63938B061F0B7259005BD255 /* MultiContainerView.h */,
+				63938B071F0B7259005BD255 /* MultiContainerView.m */,
+			);
+			path = NestingTableView;
+			sourceTree = "<group>";
+		};
+		63938AFE1F0B42B1005BD255 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63938B091F0B7865005BD255 /* ElegantTableView.framework */,
+				63938B041F0B60EA005BD255 /* SDWebImage.framework */,
+				63938B021F0B5C36005BD255 /* YJBannerView.framework */,
+				63938AFF1F0B42B1005BD255 /* OCCommonMacro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63938B0B1F0B7CAF005BD255 /* NestingControllers */ = {
+			isa = PBXGroup;
+			children = (
+				63938B0C1F0B7CCA005BD255 /* NestingRootViewController.h */,
+				63938B0D1F0B7CCA005BD255 /* NestingRootViewController.m */,
+				63938B0F1F0B7CF1005BD255 /* NestingViewController.h */,
+				63938B101F0B7CF1005BD255 /* NestingViewController.m */,
+			);
+			path = NestingControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63938AC41F0B353D005BD255 /* NestingTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63938ADC1F0B353D005BD255 /* Build configuration list for PBXNativeTarget "NestingTableViewDemo" */;
+			buildPhases = (
+				63938AC11F0B353D005BD255 /* Sources */,
+				63938AC21F0B353D005BD255 /* Frameworks */,
+				63938AC31F0B353D005BD255 /* Resources */,
+				63938B011F0B42B9005BD255 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestingTableViewDemo;
+			productName = NestingTableViewDemo;
+			productReference = 63938AC51F0B353D005BD255 /* NestingTableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63938ABD1F0B353D005BD255 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "侯跃军";
+				TargetAttributes = {
+					63938AC41F0B353D005BD255 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 33K3DU6932;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 63938AC01F0B353D005BD255 /* Build configuration list for PBXProject "NestingTableViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63938ABC1F0B353D005BD255;
+			productRefGroup = 63938AC61F0B353D005BD255 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63938AC41F0B353D005BD255 /* NestingTableViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63938AC31F0B353D005BD255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63938AD81F0B353D005BD255 /* LaunchScreen.storyboard in Resources */,
+				63938AD51F0B353D005BD255 /* Assets.xcassets in Resources */,
+				63938AD31F0B353D005BD255 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63938B011F0B42B9005BD255 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/OCCommonMacro.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/YJBannerView.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SDWebImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ElegantTableView.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63938AC11F0B353D005BD255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63938B111F0B7CF1005BD255 /* NestingViewController.m in Sources */,
+				63938AE81F0B3920005BD255 /* NestingTableView.m in Sources */,
+				63938ACD1F0B353D005BD255 /* AppDelegate.m in Sources */,
+				63938ACA1F0B353D005BD255 /* main.m in Sources */,
+				63938AE11F0B3581005BD255 /* MainViewController.m in Sources */,
+				63938B081F0B7259005BD255 /* MultiContainerView.m in Sources */,
+				63938B0E1F0B7CCA005BD255 /* NestingRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63938AD11F0B353D005BD255 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63938AD21F0B353D005BD255 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63938AD61F0B353D005BD255 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63938AD71F0B353D005BD255 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63938ADA1F0B353D005BD255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63938ADB1F0B353D005BD255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63938ADD1F0B353D005BD255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 33K3DU6932;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = NestingTableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houmanager.de;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		63938ADE1F0B353D005BD255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 33K3DU6932;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = NestingTableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houmanager.de;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63938AC01F0B353D005BD255 /* Build configuration list for PBXProject "NestingTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63938ADA1F0B353D005BD255 /* Debug */,
+				63938ADB1F0B353D005BD255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63938ADC1F0B353D005BD255 /* Build configuration list for PBXNativeTarget "NestingTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63938ADD1F0B353D005BD255 /* Debug */,
+				63938ADE1F0B353D005BD255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63938ABD1F0B353D005BD255 /* Project object */;
+}
